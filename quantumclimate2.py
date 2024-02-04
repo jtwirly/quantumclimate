@@ -1,6 +1,8 @@
+# Quantum Random Number Generation
+
 from qiskit_ibm_runtime import QiskitRuntimeService
  
-service = QiskitRuntimeService(channel="ibm_quantum", token="e062aab97300178da0436050a37d4c5c29605b267944a42789682dba6f4e4b6cfec94acf0659ccb130697dff52418b935e5316a62d416968275b8ba30d3266a9")
+service = QiskitRuntimeService(channel="ibm_quantum", token="<IBM_QUANTUM_TOKEN>")
  
 from qiskit import QuantumCircuit, Aer, execute
 from qiskit_ibm_runtime import QiskitRuntimeService, Sampler
