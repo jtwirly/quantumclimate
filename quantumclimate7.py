@@ -2,7 +2,7 @@
 
 from qiskit_ibm_runtime import QiskitRuntimeService
  
-service = QiskitRuntimeService(channel="ibm_quantum", token="<IBM_QUANTUM_TOKEN")
+service = QiskitRuntimeService(channel="ibm_quantum", token="IBM_QUANTUM_TOKEN")
  
 from qiskit import QuantumCircuit, Aer, execute
 from qiskit_ibm_runtime import QiskitRuntimeService, Sampler
