@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulation Results</title>
+</head>
+<body>
+    <h1>Simulation Results</h1>
+    {% for temp in temperatures %}
+        <p>Day {{ loop.index }}: {{ temp }}°C</p>
+    {% endfor %}
+    <a href="/">Go Back</a>
+</body>
+</html>
